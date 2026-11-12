@@ -13,6 +13,25 @@
 
 > A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
+## About this reference fork
+
+This repository retains the resource catalog from [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills). It is a reference collection, **not an original JD-authored skills implementation or an installed integration**. The inherited catalog and its upstream/community credits remain below.
+
+- **Source baseline:** [`6acce7690811cc6cf7a2bbf4da654d2ae766f9cc`](https://github.com/travisvn/awesome-claude-skills/commit/6acce7690811cc6cf7a2bbf4da654d2ae766f9cc), dated December 9, 2025. This fork's default head matched that commit when checked on November 11, 2026; this is not a claim of parity with upstream's current head.
+- **Local documentation delta:** this fork-purpose/setup clarification and the [editable provenance diagram](docs/provenance.excalidraw) with its [static preview](docs/provenance.svg). These additions were AI-assisted with Reason; that disclosure does not characterize how upstream content was authored. No skill implementation or local installation is supplied by this change.
+- **Attribution:** upstream history credits Travis V / Travis Van Nimwegen and explicitly thanks [shkao for corrected links](https://github.com/travisvn/awesome-claude-skills/pull/16). Linked Anthropic and community projects retain their respective authorship. This note does not establish or exclude contributions under other identities.
+- **License boundary:** the inherited badge above indicates CC0-1.0, but the inspected baseline contains no `LICENSE` or `NOTICE` file. Do not treat the badge as a complete verified license package or as permission for linked skills, externally hosted artwork, or trademarks. Confirm applicable terms with their respective upstream sources before redistribution; retain any nested licenses/notices when importing external material.
+
+### Using this repository (no build required)
+
+Read the catalog on GitHub, or open `README.md` in a Markdown viewer. There is no application entry point, dependency manifest, bundled `SKILL.md`, build, test suite, or runtime configuration in the source baseline. No package installation, API key, or skill installation is required to browse it.
+
+The inherited **Getting Started** examples below describe external Claude products, not setup for this repository. They are retained as source material, **NOT RUN or validated against current product versions**. Consult the linked official documentation for current commands, availability, pricing, and prerequisites before using them. The example `/path/to/skill-directory` means a separately obtained skill, not this catalog. Never paste a real API key into tracked files.
+
+To edit the diagram, open `docs/provenance.excalidraw` in Excalidraw; `docs/provenance.svg` is the matching readable preview. A [self-contained HTML preview](docs/provenance-preview.html) can be opened locally without a server or dependencies. These are documentation assets, not an executable architecture or proof that an integration is installed. Review third-party skill instructions, scripts, dependencies, permissions, and licenses separately before any installation.
+
+---
+
 **Claude Skills** teach Claude how to **perform tasks in a repeatable way**
 
 They are specialized folders containing instructions, scripts, and resources that Claude dynamically discovers and loads when relevant to tasks.
